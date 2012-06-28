@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F081BC515937EE800414A5F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F081BC415937EE800414A5F /* Cocoa.framework */; };
+		0F081BCF15937EE800414A5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F081BCD15937EE800414A5F /* InfoPlist.strings */; };
+		0F081BD115937EE800414A5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081BD015937EE800414A5F /* main.m */; };
+		0F081BD515937EE800414A5F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0F081BD315937EE800414A5F /* Credits.rtf */; };
+		0F081BD815937EE800414A5F /* HappyJemAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081BD715937EE800414A5F /* HappyJemAppDelegate.m */; };
+		0F081BDB15937EE800414A5F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F081BD915937EE800414A5F /* MainMenu.xib */; };
+		0F081BFD1593801F00414A5F /* NSAlert+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081BE71593801F00414A5F /* NSAlert+MKNetworkKitAdditions.m */; };
+		0F081BFE1593801F00414A5F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081BE91593801F00414A5F /* NSData+Base64.m */; };
+		0F081BFF1593801F00414A5F /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081BEB1593801F00414A5F /* NSDate+RFC1123.m */; };
+		0F081C001593801F00414A5F /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081BED1593801F00414A5F /* NSDictionary+RequestEncoding.m */; };
+		0F081C011593801F00414A5F /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081BEF1593801F00414A5F /* NSString+MKNetworkKitAdditions.m */; };
+		0F081C021593801F00414A5F /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081BF11593801F00414A5F /* UIAlertView+MKNetworkKitAdditions.m */; };
+		0F081C031593801F00414A5F /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081BF31593801F00414A5F /* MKNetworkEngine.m */; };
+		0F081C041593801F00414A5F /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081BF61593801F00414A5F /* MKNetworkOperation.m */; };
+		0F081C051593801F00414A5F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081BF91593801F00414A5F /* Reachability.m */; };
+		0F081C0A1593805B00414A5F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F081C091593805B00414A5F /* SystemConfiguration.framework */; };
+		0F081C0C1593806400414A5F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F081C0B1593806400414A5F /* Security.framework */; };
+		0F081C0E1593827500414A5F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F081C0D1593827500414A5F /* WebKit.framework */; };
+		0F081C111593893C00414A5F /* RSNateEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081C10159383AB00414A5F /* RSNateEngine.m */; };
+		0F4B17DF159770A700DB7449 /* RSOAuthEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F081C081593803400414A5F /* RSOAuthEngine.m */; };
+		0F6CD53015999D120067622F /* logo02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CD52E15999D120067622F /* logo02.jpg */; };
+		0F6CD533159A0EB60067622F /* logo01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CD532159A0EB60067622F /* logo01.png */; };
+		0F6CD53D159A1AC70067622F /* HappyJemAuthenticationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CD53B159A1AC70067622F /* HappyJemAuthenticationWindowController.m */; };
+		0F6CD53E159A1AC70067622F /* HappyJemAuthenticationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CD53C159A1AC70067622F /* HappyJemAuthenticationWindowController.xib */; };
+		0F6CD546159B039C0067622F /* CSXMLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CD545159AC6A50067622F /* CSXMLObject.m */; };
+		0F6CD549159B06E70067622F /* CSCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CD548159B03E10067622F /* CSCommon.m */; };
+		0F6CD54B159B07280067622F /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6CD54A159B07280067622F /* CoreServices.framework */; };
+		0F6CD554159B09BE0067622F /* M3NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CD552159B09890067622F /* M3NavigationView.m */; };
+		0F6CD556159B09C80067622F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6CD555159B09C80067622F /* QuartzCore.framework */; };
+		0F6CD55A159B0B4A0067622F /* HappyJemProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CD558159B0B4A0067622F /* HappyJemProfileViewController.m */; };
+		0F6CD55B159B0B4A0067622F /* HappyJemProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CD559159B0B4A0067622F /* HappyJemProfileViewController.xib */; };
+		0F6CD56C159B61080067622F /* HappyJemUploadPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CD56A159B61070067622F /* HappyJemUploadPhotoViewController.m */; };
+		0F6CD56D159B61080067622F /* HappyJemUploadPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CD56B159B61070067622F /* HappyJemUploadPhotoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F081BC015937EE800414A5F /* Nate_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nate_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F081BC415937EE800414A5F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0F081BC715937EE800414A5F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0F081BC815937EE800414A5F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0F081BC915937EE800414A5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F081BCC15937EE800414A5F /* Nate_Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nate_Test-Info.plist"; sourceTree = "<group>"; };
+		0F081BCE15937EE800414A5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F081BD015937EE800414A5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F081BD215937EE800414A5F /* Nate_Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nate_Test-Prefix.pch"; sourceTree = "<group>"; };
+		0F081BD415937EE800414A5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0F081BD615937EE800414A5F /* HappyJemAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyJemAppDelegate.h; sourceTree = "<group>"; };
+		0F081BD715937EE800414A5F /* HappyJemAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyJemAppDelegate.m; sourceTree = "<group>"; };
+		0F081BDA15937EE800414A5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0F081BE61593801F00414A5F /* NSAlert+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		0F081BE71593801F00414A5F /* NSAlert+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		0F081BE81593801F00414A5F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		0F081BE91593801F00414A5F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		0F081BEA1593801F00414A5F /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		0F081BEB1593801F00414A5F /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		0F081BEC1593801F00414A5F /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		0F081BED1593801F00414A5F /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		0F081BEE1593801F00414A5F /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		0F081BEF1593801F00414A5F /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		0F081BF01593801F00414A5F /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		0F081BF11593801F00414A5F /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		0F081BF21593801F00414A5F /* MKNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkEngine.h; sourceTree = "<group>"; };
+		0F081BF31593801F00414A5F /* MKNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkEngine.m; sourceTree = "<group>"; };
+		0F081BF41593801F00414A5F /* MKNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkKit.h; sourceTree = "<group>"; };
+		0F081BF51593801F00414A5F /* MKNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkOperation.h; sourceTree = "<group>"; };
+		0F081BF61593801F00414A5F /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkOperation.m; sourceTree = "<group>"; };
+		0F081BF81593801F00414A5F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0F081BF91593801F00414A5F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0F081C071593803400414A5F /* RSOAuthEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSOAuthEngine.h; sourceTree = "<group>"; };
+		0F081C081593803400414A5F /* RSOAuthEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSOAuthEngine.m; sourceTree = "<group>"; };
+		0F081C091593805B00414A5F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0F081C0B1593806400414A5F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0F081C0D1593827500414A5F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		0F081C0F159383AB00414A5F /* RSNateEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSNateEngine.h; sourceTree = "<group>"; };
+		0F081C10159383AB00414A5F /* RSNateEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSNateEngine.m; sourceTree = "<group>"; };
+		0F6CD52E15999D120067622F /* logo02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo02.jpg; sourceTree = "<group>"; };
+		0F6CD532159A0EB60067622F /* logo01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo01.png; sourceTree = "<group>"; };
+		0F6CD53A159A1AC70067622F /* HappyJemAuthenticationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyJemAuthenticationWindowController.h; sourceTree = "<group>"; };
+		0F6CD53B159A1AC70067622F /* HappyJemAuthenticationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyJemAuthenticationWindowController.m; sourceTree = "<group>"; };
+		0F6CD53C159A1AC70067622F /* HappyJemAuthenticationWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HappyJemAuthenticationWindowController.xib; sourceTree = "<group>"; };
+		0F6CD544159AC6A50067622F /* CSXMLObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSXMLObject.h; sourceTree = "<group>"; };
+		0F6CD545159AC6A50067622F /* CSXMLObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSXMLObject.m; sourceTree = "<group>"; };
+		0F6CD547159B03E10067622F /* CSCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSCommon.h; sourceTree = "<group>"; };
+		0F6CD548159B03E10067622F /* CSCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSCommon.m; sourceTree = "<group>"; };
+		0F6CD54A159B07280067622F /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		0F6CD551159B09890067622F /* M3NavigationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M3NavigationView.h; sourceTree = "<group>"; };
+		0F6CD552159B09890067622F /* M3NavigationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M3NavigationView.m; sourceTree = "<group>"; };
+		0F6CD555159B09C80067622F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0F6CD557159B0B4A0067622F /* HappyJemProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyJemProfileViewController.h; sourceTree = "<group>"; };
+		0F6CD558159B0B4A0067622F /* HappyJemProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyJemProfileViewController.m; sourceTree = "<group>"; };
+		0F6CD559159B0B4A0067622F /* HappyJemProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HappyJemProfileViewController.xib; sourceTree = "<group>"; };
+		0F6CD55C159B0C680067622F /* M3NavigationViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M3NavigationViewControllerProtocol.h; sourceTree = "<group>"; };
+		0F6CD569159B61060067622F /* HappyJemUploadPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyJemUploadPhotoViewController.h; sourceTree = "<group>"; };
+		0F6CD56A159B61070067622F /* HappyJemUploadPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyJemUploadPhotoViewController.m; sourceTree = "<group>"; };
+		0F6CD56B159B61070067622F /* HappyJemUploadPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HappyJemUploadPhotoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F081BBD15937EE800414A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6CD556159B09C80067622F /* QuartzCore.framework in Frameworks */,
+				0F6CD54B159B07280067622F /* CoreServices.framework in Frameworks */,
+				0F081C0E1593827500414A5F /* WebKit.framework in Frameworks */,
+				0F081C0C1593806400414A5F /* Security.framework in Frameworks */,
+				0F081C0A1593805B00414A5F /* SystemConfiguration.framework in Frameworks */,
+				0F081BC515937EE800414A5F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F081BB515937EE700414A5F = {
+			isa = PBXGroup;
+			children = (
+				0F081BCA15937EE800414A5F /* Nate_Test */,
+				0F081BC315937EE800414A5F /* Frameworks */,
+				0F081BC115937EE800414A5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F081BC115937EE800414A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F081BC015937EE800414A5F /* Nate_Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F081BC315937EE800414A5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F081BC415937EE800414A5F /* Cocoa.framework */,
+				0F081BC615937EE800414A5F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F081BC615937EE800414A5F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F6CD555159B09C80067622F /* QuartzCore.framework */,
+				0F6CD54A159B07280067622F /* CoreServices.framework */,
+				0F081C0D1593827500414A5F /* WebKit.framework */,
+				0F081C0B1593806400414A5F /* Security.framework */,
+				0F081C091593805B00414A5F /* SystemConfiguration.framework */,
+				0F081BC715937EE800414A5F /* AppKit.framework */,
+				0F081BC815937EE800414A5F /* CoreData.framework */,
+				0F081BC915937EE800414A5F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0F081BCA15937EE800414A5F /* Nate_Test */ = {
+			isa = PBXGroup;
+			children = (
+				0F6CD550159B096F0067622F /* Transition Views */,
+				0F6CD543159AC68D0067622F /* XML Parser */,
+				0F6CD534159A157E0067622F /* View Controllers */,
+				0F081C0F159383AB00414A5F /* RSNateEngine.h */,
+				0F081C10159383AB00414A5F /* RSNateEngine.m */,
+				0F081C071593803400414A5F /* RSOAuthEngine.h */,
+				0F081C081593803400414A5F /* RSOAuthEngine.m */,
+				0F081BE315937FE100414A5F /* Test Engine */,
+				0F081BD615937EE800414A5F /* HappyJemAppDelegate.h */,
+				0F081BD715937EE800414A5F /* HappyJemAppDelegate.m */,
+				0F081BD915937EE800414A5F /* MainMenu.xib */,
+				0F081BCB15937EE800414A5F /* Supporting Files */,
+			);
+			path = Nate_Test;
+			sourceTree = "<group>";
+		};
+		0F081BCB15937EE800414A5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F6CD532159A0EB60067622F /* logo01.png */,
+				0F6CD52E15999D120067622F /* logo02.jpg */,
+				0F081BCC15937EE800414A5F /* Nate_Test-Info.plist */,
+				0F081BCD15937EE800414A5F /* InfoPlist.strings */,
+				0F081BD015937EE800414A5F /* main.m */,
+				0F081BD215937EE800414A5F /* Nate_Test-Prefix.pch */,
+				0F081BD315937EE800414A5F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F081BE315937FE100414A5F /* Test Engine */ = {
+			isa = PBXGroup;
+			children = (
+				0F081BE41593801F00414A5F /* MKNetworkKit */,
+			);
+			name = "Test Engine";
+			sourceTree = "<group>";
+		};
+		0F081BE41593801F00414A5F /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				0F081BE51593801F00414A5F /* Categories */,
+				0F081BF21593801F00414A5F /* MKNetworkEngine.h */,
+				0F081BF31593801F00414A5F /* MKNetworkEngine.m */,
+				0F081BF41593801F00414A5F /* MKNetworkKit.h */,
+				0F081BF51593801F00414A5F /* MKNetworkOperation.h */,
+				0F081BF61593801F00414A5F /* MKNetworkOperation.m */,
+				0F081BF71593801F00414A5F /* Reachability */,
+			);
+			path = MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		0F081BE51593801F00414A5F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0F081BE61593801F00414A5F /* NSAlert+MKNetworkKitAdditions.h */,
+				0F081BE71593801F00414A5F /* NSAlert+MKNetworkKitAdditions.m */,
+				0F081BE81593801F00414A5F /* NSData+Base64.h */,
+				0F081BE91593801F00414A5F /* NSData+Base64.m */,
+				0F081BEA1593801F00414A5F /* NSDate+RFC1123.h */,
+				0F081BEB1593801F00414A5F /* NSDate+RFC1123.m */,
+				0F081BEC1593801F00414A5F /* NSDictionary+RequestEncoding.h */,
+				0F081BED1593801F00414A5F /* NSDictionary+RequestEncoding.m */,
+				0F081BEE1593801F00414A5F /* NSString+MKNetworkKitAdditions.h */,
+				0F081BEF1593801F00414A5F /* NSString+MKNetworkKitAdditions.m */,
+				0F081BF01593801F00414A5F /* UIAlertView+MKNetworkKitAdditions.h */,
+				0F081BF11593801F00414A5F /* UIAlertView+MKNetworkKitAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0F081BF71593801F00414A5F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				0F081BF81593801F00414A5F /* Reachability.h */,
+				0F081BF91593801F00414A5F /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		0F6CD534159A157E0067622F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F6CD53A159A1AC70067622F /* HappyJemAuthenticationWindowController.h */,
+				0F6CD53B159A1AC70067622F /* HappyJemAuthenticationWindowController.m */,
+				0F6CD53C159A1AC70067622F /* HappyJemAuthenticationWindowController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0F6CD543159AC68D0067622F /* XML Parser */ = {
+			isa = PBXGroup;
+			children = (
+				0F6CD547159B03E10067622F /* CSCommon.h */,
+				0F6CD548159B03E10067622F /* CSCommon.m */,
+				0F6CD544159AC6A50067622F /* CSXMLObject.h */,
+				0F6CD545159AC6A50067622F /* CSXMLObject.m */,
+			);
+			name = "XML Parser";
+			sourceTree = "<group>";
+		};
+		0F6CD550159B096F0067622F /* Transition Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F6CD55C159B0C680067622F /* M3NavigationViewControllerProtocol.h */,
+				0F6CD551159B09890067622F /* M3NavigationView.h */,
+				0F6CD552159B09890067622F /* M3NavigationView.m */,
+				0F6CD557159B0B4A0067622F /* HappyJemProfileViewController.h */,
+				0F6CD558159B0B4A0067622F /* HappyJemProfileViewController.m */,
+				0F6CD559159B0B4A0067622F /* HappyJemProfileViewController.xib */,
+				0F6CD569159B61060067622F /* HappyJemUploadPhotoViewController.h */,
+				0F6CD56A159B61070067622F /* HappyJemUploadPhotoViewController.m */,
+				0F6CD56B159B61070067622F /* HappyJemUploadPhotoViewController.xib */,
+			);
+			name = "Transition Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F081BBF15937EE800414A5F /* Nate_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F081BDE15937EE800414A5F /* Build configuration list for PBXNativeTarget "Nate_Test" */;
+			buildPhases = (
+				0F081BBC15937EE800414A5F /* Sources */,
+				0F081BBD15937EE800414A5F /* Frameworks */,
+				0F081BBE15937EE800414A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nate_Test;
+			productName = Nate_Test;
+			productReference = 0F081BC015937EE800414A5F /* Nate_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F081BB715937EE800414A5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HappyJem;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0F081BBA15937EE800414A5F /* Build configuration list for PBXProject "Nate_Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F081BB515937EE700414A5F;
+			productRefGroup = 0F081BC115937EE800414A5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F081BBF15937EE800414A5F /* Nate_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F081BBE15937EE800414A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F081BCF15937EE800414A5F /* InfoPlist.strings in Resources */,
+				0F081BD515937EE800414A5F /* Credits.rtf in Resources */,
+				0F081BDB15937EE800414A5F /* MainMenu.xib in Resources */,
+				0F6CD53015999D120067622F /* logo02.jpg in Resources */,
+				0F6CD533159A0EB60067622F /* logo01.png in Resources */,
+				0F6CD53E159A1AC70067622F /* HappyJemAuthenticationWindowController.xib in Resources */,
+				0F6CD55B159B0B4A0067622F /* HappyJemProfileViewController.xib in Resources */,
+				0F6CD56D159B61080067622F /* HappyJemUploadPhotoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F081BBC15937EE800414A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F081BD115937EE800414A5F /* main.m in Sources */,
+				0F081BD815937EE800414A5F /* HappyJemAppDelegate.m in Sources */,
+				0F081BFD1593801F00414A5F /* NSAlert+MKNetworkKitAdditions.m in Sources */,
+				0F081BFE1593801F00414A5F /* NSData+Base64.m in Sources */,
+				0F6CD546159B039C0067622F /* CSXMLObject.m in Sources */,
+				0F081BFF1593801F00414A5F /* NSDate+RFC1123.m in Sources */,
+				0F6CD549159B06E70067622F /* CSCommon.m in Sources */,
+				0F6CD554159B09BE0067622F /* M3NavigationView.m in Sources */,
+				0F081C001593801F00414A5F /* NSDictionary+RequestEncoding.m in Sources */,
+				0F081C011593801F00414A5F /* NSString+MKNetworkKitAdditions.m in Sources */,
+				0F4B17DF159770A700DB7449 /* RSOAuthEngine.m in Sources */,
+				0F081C021593801F00414A5F /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				0F081C031593801F00414A5F /* MKNetworkEngine.m in Sources */,
+				0F081C041593801F00414A5F /* MKNetworkOperation.m in Sources */,
+				0F081C051593801F00414A5F /* Reachability.m in Sources */,
+				0F081C111593893C00414A5F /* RSNateEngine.m in Sources */,
+				0F6CD53D159A1AC70067622F /* HappyJemAuthenticationWindowController.m in Sources */,
+				0F6CD55A159B0B4A0067622F /* HappyJemProfileViewController.m in Sources */,
+				0F6CD56C159B61080067622F /* HappyJemUploadPhotoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F081BCD15937EE800414A5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F081BCE15937EE800414A5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F081BD315937EE800414A5F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F081BD415937EE800414A5F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0F081BD915937EE800414A5F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F081BDA15937EE800414A5F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F081BDC15937EE800414A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0F081BDD15937EE800414A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0F081BDF15937EE800414A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nate_Test/Nate_Test-Prefix.pch";
+				INFOPLIST_FILE = "Nate_Test/Nate_Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F081BE015937EE800414A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nate_Test/Nate_Test-Prefix.pch";
+				INFOPLIST_FILE = "Nate_Test/Nate_Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F081BBA15937EE800414A5F /* Build configuration list for PBXProject "Nate_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F081BDC15937EE800414A5F /* Debug */,
+				0F081BDD15937EE800414A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F081BDE15937EE800414A5F /* Build configuration list for PBXNativeTarget "Nate_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F081BDF15937EE800414A5F /* Debug */,
+				0F081BE015937EE800414A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F081BB715937EE800414A5F /* Project object */;
+}
